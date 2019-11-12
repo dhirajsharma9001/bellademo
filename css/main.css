@@ -71,6 +71,15 @@ body {
 
 .headerr {
     background-color: #000;
+    height: 80px;
+}
+.flash {
+    float: right;
+    color: #FFD700;
+    margin-top: 5px;
+    margin-right: 51px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar-toggler {
@@ -620,7 +629,7 @@ body {
     }
 
     .sectionTitle h1 {
-        margin-left: 75px;
+        /*margin-left: 75px;*/
         padding: 0px 0 20px;
         font-size: 24px;
         line-height: 1.2em;
@@ -1768,6 +1777,18 @@ input {
         font-weight: 600;
         line-height: 24px;
         text-align: justify;
+    }
+    .headerr {
+        background-color: #000;
+        height: 140px;
+    }
+    .flash {
+        float: right;
+        color: #FFD700;
+        margin-top: 24px;
+        margin-right: 51px;
+        font-size: 18px;
+        font-weight: bold;
     }
 }
 
