@@ -72,9 +72,9 @@
         if (xhr.readyState === 4 && xhr.status === 200) {
           form.reset();
             var formElements = form.querySelector(".form-elements");
-            //alert();
-            var win = window.open("http://www.elangroup.ind.in/thanks.htm", "popupWindow", "popupWindow", "width=359,height=365,top=150,left=500,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no");
-            setTimeout(function () { win.close() }, 3000);
+            alert('Thank you for submitting your details. Our professional shall get in touch with you within two working hours.Stay with us.');
+            //var win = window.open("http://www.elangroup.ind.in/thanks.htm", "popupWindow", "popupWindow", "width=359,height=365,top=150,left=500,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no");
+            //setTimeout(function () { win.close() }, 3000);
           //if (formElements) {
           //  formElements.style.display = "none"; // hide form
           //}
